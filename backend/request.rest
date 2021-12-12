@@ -1,1 +1,49 @@
 GET http://localhost:5000/users
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsInVzZXJuYW1lIjoiYmVuZXdpY2Frc29ubyIsIm5hbWUiOiJCZW5lZGljdHVzIFdpY2Frc29ubyIsImVtYWlsIjoiYmVuZXdpY2Frc29ub0BnbWFpbC5jb20iLCJpYXQiOjE2MzkzMTE5MjMsImV4cCI6MTYzOTMxMTk0M30.g1zRsLkq7xESGz0qPS9Ux6PesWAsERftdS8urGDb3gU
+
+###
+POST http://localhost:5000/users
+Content-Type: application/json
+
+{
+    "username": "benewicaksono",
+    "name": "Benedictus Wicaksono",
+    "email": "benewicaksono@gmail.com",
+    "password": "12345678",
+    "confPassword": "12345678"
+}
+
+###
+POST http://localhost:5000/login
+Content-Type: application/json
+
+{
+    "username": "benewicaksono",
+    "password": "12345678"
+}
+
+###
+GET http://localhost:5000/token
+
+###
+DELETE http://localhost:5000/logout
+
+
+
+
+
+
+
+
+###
+GET http://localhost:5000/feedbacks
+
+###
+POST http://localhost:5000/feedbacks
+Content-Type: application/json
+
+{
+    "star": "5",
+    "name": "User Test 1",
+    "message": "Si Cepat benar-benar cepat!"
+}
