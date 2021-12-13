@@ -4,16 +4,16 @@ import "./components-css/Login.css";
 
 const Login = () => {
     return (
-        <div class="container" id="container">
-            <div class="overlay-container">
-                <div class="overlay">
-                    <div class="overlay-panel overlay-right">
+        <div className="container" id="container">
+            <div className="overlay-container">
+                <div className="overlay">
+                    <div className="overlay-panel overlay-right">
                         <h1>HTML CSS Login Form</h1>
                         <p>This login form is created using pure HTML and CSS. For social icons, FontAwesome is used.</p>
                     </div>
                 </div>
             </div>
-            <div class="form-container log-in-container">
+            <div className="form-container log-in-container">
                 <form action="#">
                     <h1 className="login-form-title">Login</h1>
                     <input className="login-form-input" type="username" placeholder="Username" required/>

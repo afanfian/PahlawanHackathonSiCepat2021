@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: #fcfcfc;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Montserrat', sans-serif;
+	margin: 0 4rem;
+}
+
+.container-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+#feedbacks .lower-sec {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.upper-sec {
+    display: flex;
+    justify-content: space-between;
+}
+
+.fb-card:first-child {
+    margin-right: 1.3rem;
+}
+
+.fb-card {
+    width: calc((100vw - 8rem) / 4 - 1rem);
+    border: 1px solid #0f1d2e;
+    border-radius: .4rem;
+    transition: .2s ease;
+}
+
+.fb-card:hover {
+    transform: scale(1.01);
+}
+
+.fb-card-content {
+    margin: 1rem 1.5rem;
+}
+
+.fb-card-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.fb-card-header h3 {
+    margin: 0;
+}
+
+@media only screen and (max-width: 1050px) {
+    .upper-sec {
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+
+    .fb-card {
+        width: calc((100vw - 8rem) / 2 - 1rem);
+    }
+}
+
+@media only screen and (max-width: 720px) {
+    .lower-sec {
+        flex-direction: column;
+    }
+
+    .fb-card:first-child {
+        margin-bottom: 1rem;
+    }
+
+    .fb-card {
+        width: calc(100vw - 8rem);
+    }
+}
