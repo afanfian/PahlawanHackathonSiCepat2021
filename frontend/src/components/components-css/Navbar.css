@@ -1,37 +1,53 @@
-.navbar {
-    background-color: #f44336;
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
+nav {
+    position: fixed;
+    background-color: #cd2028;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    width: 100vw;
+    display: flex;
+}
+
+nav ul {
+    padding: .3rem 0;
+    width: 100vw;
+    border-radius: #fff;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 1rem 4rem 1rem 0;
+}
+
+ul li {
+    list-style: none;
+    margin-left: 4rem;
+}
+
+li a {
     text-decoration: none;
-    font-size: 16px;
-    cursor: pointer;
-    -webkit-transition-duration: 0.4s; /* Safari */
-    transition-duration: 0.4s;
-}  
-/* Button 1 */
-.button1{
-    border-radius: 7px;
-    border: 2px solid #f44336;
-    font-size: 20px;
-    font-family: rubik;
-    margin-right: 2%;
+    font-weight: bold;
+    light-height: 1.6;
+    font-size: 1em;
+    color: #fff;
+    position: relative;
 }
-.button1:hover {
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
-    background-color: #f44336;
-    color: white;
+
+.nav-li:after {
+    content: '';
+    display: block;
+    margin-left: -10%;
+    height: .1rem;
+    width: 0px;
+    background: transparent;
+    transition: width .5s ease, background-color .5s ease;
 }
-/* Button 2 */
-.button2{
-    border-radius: 7px;
-    border: 2px solid #f44336;
-    font-size: 20px;
-    font-family: rubik;
+  
+.nav-li:hover:after {
+    width: 120%;
+    background: #fff;
 }
-.button2:hover {
-    background-color: #f44336;
-    color: white;
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+
+#Web-Logo:first-child {
+    margin-right: auto;
+    margin-left: 4rem;
 }

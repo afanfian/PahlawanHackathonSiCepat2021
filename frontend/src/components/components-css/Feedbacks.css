@@ -1,15 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
-
-* {
-	box-sizing: border-box;
-}
-
 body {
-	background: #fcfcfc;
-	justify-content: center;
-	align-items: center;
-	font-family: 'Montserrat', sans-serif;
-	margin: 0 4rem;
+    margin-top: 9rem;
 }
 
 .container-header {

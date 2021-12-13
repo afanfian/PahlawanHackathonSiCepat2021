@@ -1,6 +1,7 @@
 import React from 'react';
 import "./Style.css";
 import "./components-css/Login.css";
+import logo from "./img/Logo1.png";
 
 const Login = () => {
     return (
@@ -8,8 +9,7 @@ const Login = () => {
             <div className="overlay-container">
                 <div className="overlay">
                     <div className="overlay-panel overlay-right">
-                        <h1>HTML CSS Login Form</h1>
-                        <p>This login form is created using pure HTML and CSS. For social icons, FontAwesome is used.</p>
+                        <a href="#"><img src={ logo } alt="Logo" className="logo"/></a>
                     </div>
                 </div>
             </div>
