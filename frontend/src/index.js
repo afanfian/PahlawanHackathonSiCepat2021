@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Feedbacks from './components/Feedbacks.js';
+import Navbar from './components/Navbar.js';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Feedbacks />
+    <Navbar />
   </React.StrictMode>,
   document.getElementById('root')
 );
