@@ -1,7 +1,7 @@
 import React from 'react';
 import "./Style.css";
 import "./components-css/Login.css";
-import logo from "./img/Logo1.png";
+import logo from "./img/logo2.svg";
 
 const Login = () => {
     return (

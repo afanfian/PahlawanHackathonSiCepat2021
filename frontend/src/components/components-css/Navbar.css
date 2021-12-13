@@ -32,6 +32,10 @@ li a {
     position: relative;
 }
 
+.logo {
+    height: 3rem;
+}
+
 .nav-li:after {
     content: '';
     display: block;
@@ -50,4 +54,10 @@ li a {
 #Web-Logo:first-child {
     margin-right: auto;
     margin-left: 4rem;
+}
+
+@media only screen and (max-width: 600px) {
+    ul li {
+        margin-left: 1rem;
+    }
 }
