@@ -1,6 +1,7 @@
+import React from 'react';
 import './Style.css';
 
-function FE(){
+const FE = () => {
     return(
         <div className="FE">
             <header Classname ="FE-Header">
@@ -9,6 +10,6 @@ function FE(){
             </header>
         </div>
     );
-}
+};
 
 export default FE;
