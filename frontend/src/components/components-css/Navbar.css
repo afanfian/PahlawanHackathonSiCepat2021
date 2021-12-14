@@ -29,7 +29,7 @@ li a {
     light-height: 1.6;
     font-size: 1em;
     color: #fff;
-    position: relative;
+    /* position: relative; */
 }
 
 .logo {
