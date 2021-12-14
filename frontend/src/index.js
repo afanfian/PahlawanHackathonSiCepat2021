@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 // import Login from "./components/Login.js";
-// import Navbar from "./components/Navbar.js";
+import Navbar from "./components/Navbar.js";
 // import Feedbacks1 from "./components/Feedbacks1.js";
 // import Feedbacks2 from "./components/Feedbacks2.js";
 // import Feedbacks3 from "./components/Feedbacks3.js";
@@ -13,8 +13,8 @@ import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    {/* <Navbar /> 
-    <Login />
+    <Navbar /> 
+    {/* <Login />
     <Feedbacks1 />
     <Feedbacks2 />
     <Feedbacks3 />
