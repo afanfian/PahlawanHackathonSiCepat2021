@@ -5,7 +5,7 @@ import logo from "./img/logo2.svg";
 
 const Login = () => {
     return (
-        <div className="container" id="container">
+        <div className="login-container" id="container">
             <div className="overlay-container">
                 <div className="overlay">
                     <div className="overlay-panel overlay-right">

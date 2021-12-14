@@ -1,29 +1,95 @@
-.isifeedbacks{
+.isiFeedbacks-container {
+    //border: 1px solid #0f1d2e;
+    border-radius: .4rem;
+    margin: 0 30%;
+    margin-top: 11rem;
+}
+
+.isiFeedbacks-header {
     text-align: center;
-    font-size: 2em;
-    padding-top: 9%;
 }
-.nama{
-    font-size: 1.5em;
-    margin-left: 35%;
+
+.isiFeedbacks-rating-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 10rem;
 }
-.isinama{
-    margin-left:35%;
-    width: 30%;
-    border-radius: 10px;
+
+.isiFeedbacks-rating-star {
+    cursor: pointer;
 }
-.isipesan{
-    margin-left: 35%;
-    margin-top: 2%;
-    width: 30%;
-    height: 200px;
-    border-radius: 10px;
+
+.isiFeedbacks-form-title {
+    margin-left: 10rem;
+    margin-bottom: 0;
 }
-.btn{
-    background-color: #cd2028;
-    border-color: white;
-    color: white;
-    margin-left: 45%;
-    width: 10%;
-    border-radius: 10px;
+
+.isiFeedbacks-form-input {
+    background-color: #eee;
+	border: none;
+    border-radius: .3rem;
+	padding: .75rem .8rem;
+	margin: .5rem 0;
+    margin-left: 10rem;
+	width: calc(100% - 20rem);
+}
+
+.isiFeedbacks-form-radio {
+    margin-left: 10rem;
+}
+
+.isiFeedbacks-form-input-textarea {
+    height: 10rem;   
+}
+
+.isiFeedbacks-form-btn {
+    border-radius: 1.25rem;
+	border: 1px solid #cd2028;
+	background-color: #cd2028;
+	color: #fff;
+	font-size: 12px;
+	font-weight: bold;
+	padding: .75rem 2.8rem;
+    margin: 2rem 10rem;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	transition: transform 80ms ease-in;
+    width: calc(100% - 20rem);
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 1700px) {
+    .isiFeedbacks-container {
+        margin: 0 auto;
+        margin-top: 11rem;
+        width: 40rem;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .isiFeedbacks-container {
+        width: 20rem
+    }
+
+    .isiFeedbacks-rating-container {
+        margin: 0;
+    }
+
+    .isiFeedbacks-form-title {
+        margin-left: 0;
+    }
+
+    .isiFeedbacks-form-input {
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .isiFeedbacks-form-radio {
+        margin-left: 0;
+    }
+
+    .isiFeedbacks-form-btn {
+        margin: 2rem 0;
+        width: 100%;
+    }
 }

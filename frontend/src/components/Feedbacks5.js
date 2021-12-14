@@ -5,7 +5,7 @@ import "./components-css/Feedbacks.css"
 
 const Feedbacks = () => {
     return (
-        <div id="feedbacks" className="container">
+        <div id="feedbacks" className="feedbacks-container">
             <div className="container-header">
                 <h2 class="container-title">Feedbacks</h2>
                 <h2 className="container-star">  5 Star <AiFillStar color='gold'/><AiFillStar color='gold'/><AiFillStar color='gold'/><AiFillStar color='gold'/><AiFillStar color='gold'/></h2>
