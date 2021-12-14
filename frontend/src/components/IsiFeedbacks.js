@@ -11,7 +11,7 @@ const IsiFeedback = () => {
                 <p><AiOutlineStar/><AiOutlineStar/><AiOutlineStar/><AiOutlineStar/><AiOutlineStar/></p>
             </div>
            <div>
-                <p className='nama'>Nama (Anonim)</p>
+                <p className='nama'>Nama (anonim)</p>
                 <textarea className='isinama'></textarea>
            </div>
            <div >
