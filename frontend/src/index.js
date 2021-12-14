@@ -1,26 +1,29 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-// import Login from "./components/Login.js";
+
 import Navbar from "./components/Navbar.js";
+// import Login from "./components/Login.js";
 // import Feedbacks1 from "./components/Feedbacks1.js";
 // import Feedbacks2 from "./components/Feedbacks2.js";
 // import Feedbacks3 from "./components/Feedbacks3.js";
 // import Feedbacks4 from "./components/Feedbacks4.js";
 // import Feedbacks5 from "./components/Feedbacks5.js";
-import IsiFeedbacks from "./components/IsiFeedbacks.js";
+// import IsiFeedbacks from "./components/IsiFeedbacks.js";
+import FeedbacksPerusahaan from "./components/FeedbacksPerusahaan.js";
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
     <Navbar /> 
-    {/* <Login />
+    {/*  <Login />
     <Feedbacks1 />
     <Feedbacks2 />
     <Feedbacks3 />
     <Feedbacks4 />
-    <Feedbacks5 /> */}
-    <IsiFeedbacks/>
+    <Feedbacks5 /> 
+    <IsiFeedbacks/> */}
+    <FeedbacksPerusahaan/>
   </React.StrictMode>,
   document.getElementById('root')
 );
