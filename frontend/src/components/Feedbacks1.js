@@ -8,7 +8,7 @@ const Feedbacks = () => {
         <div id="feedbacks" className="container">
             <div className="container-header">
                 <h2 class="container-title">Feedbacks</h2>
-                <h2 className="container-star">  2 Star <AiFillStar color='gold'/><AiFillStar/><AiFillStar/><AiFillStar/><AiFillStar/></h2>
+                <h2 className="container-star">  1 Star <AiFillStar color='gold'/><AiFillStar/><AiFillStar/><AiFillStar/><AiFillStar/></h2>
             </div>
             <section className="upper-sec">
                 <section className="lower-sec">

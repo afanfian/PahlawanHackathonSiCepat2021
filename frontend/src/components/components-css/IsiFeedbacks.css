@@ -1,0 +1,29 @@
+.isifeedbacks{
+    text-align: center;
+    font-size: 2em;
+    padding-top: 20px;
+}
+.nama{
+    font-size: 1.5em;
+    margin-left: 40%;
+}
+.isinama{
+    margin-left:40%;
+    width: 20%;
+    border-radius: 10px;
+}
+.isipesan{
+    margin-left:40%;
+    margin-top: 2%;
+    width: 20%;
+    height: 200px;
+    border-radius: 10px;
+}
+.btn{
+    background-color: red;
+    border-color: white;
+    color: white;
+    margin-left: 45%;
+    width: 10%;
+    border-radius: 10px;
+}
