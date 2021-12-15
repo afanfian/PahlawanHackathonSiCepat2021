@@ -40,10 +40,45 @@
     font-family: sans-serif;
 }
 
+.feedbacks-container-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.feedbacks-rating-upper-container {
+    display: flex;
+    align-items: center;
+}
+
+.feedbacks-rating-container {
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+.feedbacks-rating-toggle h3 {
+    margin: 0;
+}
+
+.feedbacks-rating-toggle {
+    padding: .5rem;
+    background: none;
+    border: 3px solid #fff;
+    color: #a9a9a9;
+    cursor: pointer;
+}
+
+.feedbacks-rating-toggle:hover {
+    color: #4a4a4a;
+    border: 3px solid #ffc107;
+    border-radius: .4rem;
+}
+
 .feedbacks-card {
     margin: 0;
     font-size: 1.2rem;
-    border: 1px solid #0f1d2e;
+    border: 2px solid #0f1d2e;
     border-radius: .4rem;
     transition: .2s ease;
 }
