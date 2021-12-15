@@ -36,6 +36,15 @@ li a {
     height: 3rem;
 }
 
+.active {
+    content: '';
+    display: block;
+    margin-left: -10%;
+    height: .1rem;
+    width: 120%;
+    background: #fff;
+}
+
 .nav-li:after {
     content: '';
     display: block;

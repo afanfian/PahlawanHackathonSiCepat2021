@@ -3,7 +3,7 @@ import "./Style.css";
 import "./components-css/Navbar.css";
 import logo from "./img/logo2.svg";
 
-const Navbar = () =>{
+const Navbar = (msg) =>{
     return (
         <nav>
             <ul>

@@ -7,9 +7,10 @@ import { FaStar } from "react-icons/fa";
 const IsiFeedback = () => {
     const [name, setName] = useState('');
     const [message, setMessage] = useState('');
-    const [currentValue, setCurrentValue] = useState(0);
+    const [currentValue, setCurrentValue] = useState(1);
     const [hoverValue, setHoverValue] = useState('');
     const stars = Array(5).fill(0);
+    const [msg, setMsg] = useState('');
 
     const IsiFeedback = async(e) => {
         e.preventDefault();
@@ -20,7 +21,9 @@ const IsiFeedback = () => {
                 message: message
                 }
             )
+            setMsg("Feedback berhasil disimpan.");
         } catch (error) {
+            console.log(error);
         }
     }
 
@@ -62,11 +65,12 @@ const IsiFeedback = () => {
                         <h3 className="isiFeedbacks-form-title">Nama</h3>
                         <input className="isiFeedbacks-form-input" type="username" placeholder="Nama ..." value={name} onChange={(e) => setName(e.target.value)} required/><br></br>
                         <input className="isiFeedbacks-form-radio" type="checkbox" name="nama" value="Anonim" onClick={(e) => setName(e.target.value)} />
-                        <label for="isiFeedbacks-form-anonim">Isi sebagai Anonim</label>
+                        <label htmlfor="isiFeedbacks-form-anonim">Isi sebagai Anonim</label>
                         <h3 className="isiFeedbacks-form-title">Feedback</h3>
-                        <textarea className="isiFeedbacks-form-input isiFeedbacks-form-input-textarea" placeholder="Feedback ..." value={message} onChange={(e) => setMessage(e.target.value)}></textarea>
-                        <button className="isiFeedbacks-form-btn">Submit</button>
+                        <textarea className="isiFeedbacks-form-input isiFeedbacks-form-input-textarea" placeholder="Feedback ..." value={message} onChange={(e) => setMessage(e.target.value)} required></textarea>
+                        <button className="isiFeedbacks-form-btn">Kirim</button>
                     </form>
+                    <p className="msg">{msg}</p>
                 </div>
             </div>
         </div>

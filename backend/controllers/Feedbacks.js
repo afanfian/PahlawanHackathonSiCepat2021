@@ -3,6 +3,9 @@ import Feedbacks from "../models/FeedbackModel.js";
 export const getFeedbacks = async(req, res) => {
     try {
         const feedbacks = await Feedbacks.findAll({
+            order: [
+                ['id', 'DESC']
+            ],
             attributes: ['star', 'name', 'message']
         });
         res.json(feedbacks);

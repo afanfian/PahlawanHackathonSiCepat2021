@@ -58,6 +58,11 @@
     cursor: pointer;
 }
 
+.msg {
+    text-align: center;
+    color: #28a745;
+}
+
 @media only screen and (max-width: 1700px) {
     .isiFeedbacks-container {
         margin: 0 auto;

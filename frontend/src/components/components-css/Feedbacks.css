@@ -80,10 +80,11 @@
     font-size: 1.2rem;
     border: 2px solid #0f1d2e;
     border-radius: .4rem;
-    transition: .2s ease;
+    transition: .05s ease;
+    cursor: pointer;
 }
 
-.fb-card:hover {
+.feedbacks-card:hover {
     transform: scale(1.01);
 }
 
@@ -110,5 +111,9 @@
     .feedbacks-auto-grid {
         --auto-grid-min-size: 20rem;
         padding-left: 0;
+    }
+
+    .feedbacks-rating-toggle {
+        padding: .2rem;
     }
 }
