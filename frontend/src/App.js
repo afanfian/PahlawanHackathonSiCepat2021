@@ -1,6 +1,6 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Navbar from "./components/Navbar.js";
-import Feedbacks from "./components/Feedbacks5.js";
+import Feedbacks from "./components/Feedbacks.js";
 import IsiFeedbacks from "./components/IsiFeedbacks.js"
 
 function App() {
